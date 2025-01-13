@@ -8,7 +8,7 @@ public class TestClass {
     }
 
     static void staticMethod2(){
-        instanceMethod(); // error! static method cannot call static method.
+        // instanceMethod(); // error! static method cannot call static method.
         staticMethod(); // static method can only call static method.
 
     }
